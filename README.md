@@ -22,3 +22,18 @@ comments are embedded in the code file
 ![ROC curve of three models](ROC_curve.png)
 ![prediction performance comparison](performance_comparison.png)
 ![boost_dependence](boost_dependence.png)
+
+
+## Conclusion:
+After tuning the models and comparison of their prediction performance, 
+I decided to use logit function to predict and optimize. 
+To be more specific, I generated barplots and dependence plots to see which
+factors are the main reason driving today's result. I found out that people
+with higher past purchases and from US and UK, are more willingly to open the
+link attached in the email if they received the emails on selected hours and weekdays.
+In sum, the click
+through rate can be improved, per simulation, by about 17%. In order to test that
+the company should conduct a relatively long-term experiment, more specifically
+an A/B test. Randomly assign the user to two groups, treatment group(recieving
+modified email on selected hours and weekdays) and control group(recieving same
+type of email on the same hours and weekdays as the company is currently doing now.)
